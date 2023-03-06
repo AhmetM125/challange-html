@@ -1,0 +1,156 @@
+body { 
+    background-color: antiquewhite;
+}
+.maindiv { 
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+.leftside  {
+    position: relative;
+    background-color: #7b1acb;
+    width: 50%;
+    height:100%;
+    float: left;
+    border-radius: 20px;
+
+}
+.circle-result h1 {
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+
+}
+.leftside p {
+    color: #A3A0F4;
+    font-size: 12px;
+    text-align: center;
+    
+}
+.circle-result p { 
+    color: rgba(255, 255, 255, 0.466);
+    position: absolute;
+     top: 120px;
+     left: 83px;
+}
+.circle-result { 
+    margin: auto;
+    background-color: #5c1b92;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px #5c1b92;
+}
+.leftside h3  {
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 0px;
+    margin-top: 20px;
+    
+
+}
+.rightside { 
+    width: 200px;
+    height: 100%;
+    
+    float: left;
+    position: relative;
+
+}
+.rightside h3 { 
+    color: black;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    
+}
+.rightside button { 
+    background-color: #6F1AB6;
+    border-radius: 30px;
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    color: white;
+    font-size: 15px;    
+  
+   
+
+}
+.reactiondiv { 
+    background-color: rgba(241, 93, 93, 0.219);
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    border-radius: 5px;
+}
+.memorydiv  {
+    background-color: rgba(236, 224, 114, 0.219);
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.verbaldiv  {
+    background-color: rgba(115, 238, 170, 0.219);
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.visualdiv  {
+    background-color: rgba(109, 166, 240, 0.219);
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+.reactiondiv img,.reactiondiv h4,.reactiondiv p { 
+   display: inline;
+    
+}
+.reactiondiv img,.memorydiv img { 
+    width: 20px;
+ 
+    
+}
+.reactiondiv, .memorydiv,.visualdiv,.verbaldiv{ 
+    position: relative;
+}
+ .reactiondiv h4,.memorydiv h4,.visualdiv h4,.verbaldiv h4 { 
+    font-size: 15px;
+    position: relative;
+    bottom: 3px;
+    left: 8px;
+    font-weight: 100;
+ }
+ .reactiondiv p,.memorydiv p,.verbaldiv p,.visualdiv p{ 
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    margin-top: 7px;
+ }
+ .memorydiv img,.memorydiv p,.memorydiv h4 {
+  display: inline;
+}
+.verbaldiv img,.verbaldiv p,.verbaldiv h4  { 
+display: inline;
+}
+.visualdiv img,.visualdiv p,.visualdiv h4 { 
+    display: inline;
+}
+    
