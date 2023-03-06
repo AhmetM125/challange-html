@@ -123,8 +123,11 @@ body {
    display: inline;
     
 }
-.reactiondiv img,.memorydiv img { 
+.reactiondiv img,.memorydiv img,.verbaldiv img,.visualdiv img { 
     width: 20px;
+    position: relative;
+    left: 3px;
+    top: 3px;
  
     
 }
